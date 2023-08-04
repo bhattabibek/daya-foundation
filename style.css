@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  margin: 20px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navlinks {
+  background-color: #a97425;
+  margin: 20px;
+  padding: 30px;
+}
+.navlinks ul li {
+  display: inline;
+  padding: 84px;
+  font-size: 13px;
+  color: white;
+}
+.topbar {
+  display: flex;
+
+  justify-content: space-evenly;
+}
+.banner {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Registered {
+  font-size: 70px;
+}
+.non-profit {
+  font-size: 70px;
+  color: #f8d664;
+}
+.lines {
+  font-size: 130px;
+  padding-top: 240px;
+  margin-left: -400px;
+}
+.about-us {
+  display: flex;
+  justify-content: space-evenly;
+}
+.read-more-button {
+  padding: 10px;
+  background-color: #a97425;
+  color: white;
+  outline: none;
+  border: none;
+  font-size: 25px;
+}
+.aboutus-text {
+  padding: 120px;
+}
+.introduction {
+  font-size: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.aboutus-texts {
+  font-size: 18px;
+}
+.aboutus-texts {
+  padding-top: 230px;
+}
+.work {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.info img {
+  padding-top: 60px;
+}
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+}
+.form input {
+  width: 370px;
+  padding: 6px;
+  margin: 10px;
+}
+textarea {
+  width: 370px;
+  height: 100px;
+  padding-left: 140px;
+}
+.submit {
+  padding: 14px;
+  width: 370px;
+  background-color: #a97425;
+  color: white;
+  outline: none;
+  border: none;
+}
+.partner {
+  display: flex;
+  justify-content: space-evenly;
+}
+.title {
+  padding-left: 160px;
+}
+
+.testimonial {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 20px;
+  text-align: center;
+}
+.testone,
+.testtwo,
+.testthree {
+  width: 530px;
+  height: 230px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
+    0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12),
+    0 16px 16px rgba(0, 0, 0, 0.12);
+}
+.testtwo {
+  margin: -20px;
+}
+.profilepic img {
+  border-radius: 30%;
+}
+.color {
+  background-color: #a97425;
+  color: white;
+}
+.blogs {
+  display: flex;
+  justify-content: space-between;
+}
+.copyright {
+  background-color: #a97425;
+  width: 100%;
+  height: 30px;
+  padding: 40px;
+  color: white;
+  text-align: center;
+}
+span .material-symbols-outlined {
+  text-align: center;
+}
